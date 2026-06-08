@@ -5,9 +5,9 @@ return(
 <h3 className="font-Josefin-Sans text-center text-3xl mt-15">OUR CREATIONS</h3>
 
 
-<ul className="px-4 h-auto w-full flex flex-col gap-5">
+<ul className="px-4 h-auto w-full flex flex-col items-center  justify-center gap-5 md:w-3xl md:px-0 md:mx-0 border md:flex-row md:flex-wrap md:gap-6 md: ">
 {creations.map((item) => (
-  <li key={item.id} className="border relative h-25 bg-cover  bg-center place-content-end flex items-end justify-start " style={{ backgroundImage: `url(${item.image.mobile})`}} >
+  <li key={item.id} className="border relative h-25 md:h-70 bg-cover  bg-center md:bg-left-center place-content-end flex items-end justify-start " style={{ backgroundImage: `url(${item.image.mobile})`}} >
 
    <div className="absolute inset-0 bg-linear-to-r from-PBlack/50 to-transparent z-10" />
    
