@@ -1,3 +1,5 @@
+import LPAbout from "./About"
+
 const LPHero = () => {
 
 return (
@@ -13,6 +15,9 @@ return (
         
         </div>
     </section>
+
+<LPAbout/>
+
 </main>
 
 
