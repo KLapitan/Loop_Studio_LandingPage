@@ -77,8 +77,11 @@ const creationsData = [
 const LPHero = () => {
 
 return (
-<main className="relative w-full max-w-6xl border h-auto z-30">
-    <section className="h-auto">
+<main className="h-auto flex justify-center">
+    <section className="relative max-w-6xl h-auto z-30 ">
+    <div className="h-auto">
+    
+
       {/* background  */}
         <div className="bg-[url('/images/mobile/image-hero.jpg')] bg-cover bg-no-repeat  h-140 place-content-center px-4">
         
@@ -88,10 +91,11 @@ return (
             </div>
         
         </div>
-    </section>
-
+    </div>
 <LPAbout/>
 <LPCreations creations={creationsData}/>
+    </section>
+
 </main>
 
 

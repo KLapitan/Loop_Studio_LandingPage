@@ -1,8 +1,8 @@
-import Layout from "./components/LoopStudios_Layout"
+import LSLayout from "./components/layout/LoopStudios_Layout"
 
 const App = () => {
 return(
-<Layout/>
+<LSLayout/>
 
 )
 }
