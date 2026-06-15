@@ -1,4 +1,6 @@
-const LPFooter = ({socialLinks,navLinks}) => {
+import { useNavigationContext } from "../context/navcontext";
+
+const LPFooter = () => {
 
 return(
 <footer className="w-full h-auto bg-PBlack flex items-center justify-center ">
@@ -9,7 +11,7 @@ return(
         </picture>
 
       <ul className="flex  flex-col md:flex-row gap-7 lg:gap-10 ">
-        {navLinks.map((link) => (
+        {.map((link) => (
         <li className="text-PWhite text-lg  mdL:text-md font-Alata  cursor-pointer text-center  hover:underline  hover:underline-offset-6" >{link}</li>
         ))}
       </ul>

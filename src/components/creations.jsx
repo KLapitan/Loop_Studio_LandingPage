@@ -1,4 +1,8 @@
-const LPCreations = ({creations}) => {
+import { useNavigationContext } from "../context/navcontext";
+
+const LPCreations = () => {
+
+const { creationsData } =useNavigationContext();
 
 return(
 <section className="border w-full h-auto border-yellow-400 p-4 ">
@@ -6,7 +10,7 @@ return(
  <h2 className="text-3xl font-Josefin-Sans text-center">OUR CREATIONS</h2>
 
   <ul className="w-auto max-w-4xl   flex flex-col gap-5 sm:flex-row  sm:h-auto  sm:flex-wrap sm:flex-1 sm:items-center sm: border">
-    {creations.map((item) => (
+    {creationsData.map((item) => (
     <li className="border  w-full h-25  sm:h-75 sm:w-50 ">
     <div className="relative w-full h-full">
     <picture>
@@ -38,4 +42,3 @@ export default LPCreations
 
 
 
-// TODO CREATIONS OR RECREATE IT 

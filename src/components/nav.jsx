@@ -14,7 +14,12 @@ return(
       <picture>
       <img src={`${showLinks ?  "/icon-close.svg" :"/icon-hamburger.svg"}`} alt={`${showLinks ? "icon-close" : "icon-hamburger"}`} onClick={() => (setShowLinks((prev) => !prev))}  className="md:hidden"/>
       </picture>
-    
+
+
+      <ul>
+      
+      
+      </ul>
     
     </section>
 </nav>
