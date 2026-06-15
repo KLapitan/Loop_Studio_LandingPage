@@ -1,7 +1,9 @@
 
 const LPAbout = () => {
 return(
-<section className="border border-teal-600 h-auto p-4">
+<section className="border w-full  border-teal-600 h-auto p-4">
+    <div className="max-w-6xl">
+
       {/* container  */}
       <div className="mt-15  border w-full flex flex-col gap-5">
 
@@ -24,6 +26,7 @@ return(
       </div>
 
 
+    </div>
 
 </section>
 

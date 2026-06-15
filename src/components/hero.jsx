@@ -77,9 +77,9 @@ const creationsData = [
 const LPHero = () => {
 
 return (
-<main className="h-auto flex justify-center">
-    <section className="relative max-w-6xl h-auto z-30 ">
-    <div className="h-auto">
+<main className="h-auto ">
+    <section className="relative w-full  h-auto z-30 ">
+    <div className="h-auto ">
     
 
       {/* background  */}
