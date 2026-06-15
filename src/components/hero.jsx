@@ -73,12 +73,11 @@ const creationsData = [
 
 ];
 
-
 const LPHero = () => {
 
 return (
 <main className="h-auto ">
-    <section className="relative w-full  h-auto z-30 ">
+    <section className="relative w-full  h-auto z-30  ">
     <div className="h-auto ">
     
 
