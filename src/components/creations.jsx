@@ -11,7 +11,7 @@ return(
 
   <ul className="w-auto max-w-4xl   flex flex-col gap-5 sm:flex-row  sm:h-auto  sm:flex-wrap sm:flex-1 sm:items-center sm: border">
     {creationsData.map((item) => (
-    <li className="border  w-full h-25  sm:h-75 sm:w-50 ">
+    <li key={item.id} className="border  w-full h-25  sm:h-75 sm:w-50 ">
     <div className="relative w-full h-full">
     <picture>
     <img src={`${item.image.mobile}`} alt={`${item.alt}`} className="w-full h-full object-cover sm:hidden "/>

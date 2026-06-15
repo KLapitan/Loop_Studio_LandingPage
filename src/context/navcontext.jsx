@@ -7,6 +7,35 @@ const navContext = createContext()
 
 const  ContextProvider=({children}) => {
 
+const navLinks =["About" ,"Careers" ,"Events", "Products" ," Support"]
+
+const loopSocialLinks = [
+{id:0,
+  img: '/images/icon-facebook.svg',
+  alt:"facebook"
+},
+
+{id:1,
+ 
+ img: '/images/icon-twitter.svg',
+  alt:"twitter"
+
+},
+{
+d:2,
+  img: '/images/icon-pinterest.svg',
+  alt:"pinterest"
+
+},
+{
+d:3,
+ img: '/images/icon-instagram.svg',
+  alt:"instagram"
+ 
+},
+]
+
+
 const creationsData = [
 
 {
@@ -80,7 +109,7 @@ const creationsData = [
 ];
 
 return(
-<navContext.Provider value={{ creationsData }}>
+<navContext.Provider value={{ creationsData , navLinks , loopSocialLinks}}>
 
 {children}
 

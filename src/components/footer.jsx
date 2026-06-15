@@ -2,6 +2,8 @@ import { useNavigationContext } from "../context/navcontext";
 
 const LPFooter = () => {
 
+const {navLinks ,loopSocialLinks}=useNavigationContext();
+
 return(
 <footer className="w-full h-auto bg-PBlack flex items-center justify-center ">
     <section className="w-full max-w-6xl h-auto lg:h-35 flex flex-col md:flex-row md:justify-between  gap-9">
@@ -11,8 +13,8 @@ return(
         </picture>
 
       <ul className="flex  flex-col md:flex-row gap-7 lg:gap-10 ">
-        {.map((link) => (
-        <li className="text-PWhite text-lg  mdL:text-md font-Alata  cursor-pointer text-center  hover:underline  hover:underline-offset-6" >{link}</li>
+        {navLinks.map((link) => (
+        <li key={link} className="text-PWhite text-lg  mdL:text-md font-Alata  cursor-pointer text-center  hover:underline  hover:underline-offset-6" >{link}</li>
         ))}
       </ul>
 
@@ -20,7 +22,7 @@ return(
     </div>
     <div className="flex  flex-col gap-6 items-center md:items-end md:gap-6 md:justify-center  px-4 ">
         <ul className="flex flex-row gap-4 lg:gap-5 p-4">
-        {socialLinks.map((link)  => (
+        {loopSocialLinks.map((link)  => (
         <li key={link.id} className="cursor-pointer">
         <picture>
         <img src={`${link.img}`} alt={`${link.alt}`} />
