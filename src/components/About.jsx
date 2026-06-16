@@ -1,10 +1,10 @@
 
 const LPAbout = () => {
 return(
-<section className="w-full h-160  flex items-center justify-center p-4">
+<section className="w-full h-180  flex items-center justify-center p-4 ">
         
         {/* container */}
-        <div className="w-full h-auto  max-w-6xl flex flex-col gap-10 justify-center items-center lg:justify-start lg:h-130  lg:flex-row   mt-10">
+        <div className="w-full h-auto  max-w-6xl flex flex-col gap-8 justify-center items-center lg:justify-start lg:h-130  lg:flex-row  mt-10">
             <div className="w-auto h-full ">
             <picture>
                 <img src="/image-interactive.jpg" alt="hero-logo" className="w-full h-full object-cover sm:w-175 lg:w-205 lg:h-120" />
