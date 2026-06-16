@@ -6,10 +6,10 @@ const { creationsData } =useNavigationContext();
 
 return(
 <section className=" w-full h-auto  p-4  ">
-<div className=" w-full h-auto   flex gap-15 flex-col items-center mt-15 ">
+<div className=" w-full h-auto   flex gap-6 flex-col items-center mt-8 ">
 
 <div className="flex flex-row  justify-center sm:justify-between items-center  max-w-6xl w-full p-2">
- <h2 className="text-3xl md:text-4xl font-Josefin-Sans text-center  ">OUR CREATIONS</h2>
+ <h2 className="text-2xl md:text-4xl font-Josefin-Sans text-center  ">OUR CREATIONS</h2>
 <Button className={"hidden md:block text-sm  font-Josefin-Sans  py-2 px-8 font-bold border "}>SEE ALL </Button> 
 </div>
 
