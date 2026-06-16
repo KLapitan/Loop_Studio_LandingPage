@@ -1,5 +1,6 @@
 import { useNavigationContext } from "../context/navcontext";
 
+
 const LPFooter = () => {
 
 const {navLinks ,loopSocialLinks}=useNavigationContext();

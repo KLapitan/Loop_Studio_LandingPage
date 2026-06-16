@@ -1,17 +1,22 @@
 import { useNavigationContext } from "../context/navcontext";
-
+import Button from "./button";
 const LPCreations = () => {
 
 const { creationsData } =useNavigationContext();
 
 return(
-<section className="border w-full h-auto border-yellow-400 p-4 ">
-<div className="max-w-6xl w-full h-auto border  flex gap-10 flex-col items-center sm:items-start">
- <h2 className="text-3xl font-Josefin-Sans text-center">OUR CREATIONS</h2>
+<section className=" w-full h-auto border-yellow-400 p-4  ">
+<div className=" w-full h-auto   flex gap-15 flex-col items-center mt-15 ">
 
-  <ul className="w-auto max-w-4xl   flex flex-col gap-5 sm:flex-row  sm:h-auto  sm:flex-wrap sm:flex-1 sm:items-center sm: border">
+<div className="flex flex-row  justify-center sm:justify-between items-center  max-w-6xl w-full">
+ <h2 className="text-3xl md:text-4xl font-Josefin-Sans text-center  ">OUR CREATIONS</h2>
+<Button className={"hidden sm:block text-sm  font-Josefin-Sans  border py-2 px-8 font-bold "}>SEE ALL </Button> 
+</div>
+
+<div className="max-w-6xl flex flex-col items-center gap-8 mb-20">
+  <ul className="max-w-6xl w-full   flex flex-col gap-7 sm:flex-row  sm:h-auto  sm:flex-wrap sm:flex-1 sm:items-center sm:justify-center">
     {creationsData.map((item) => (
-    <li key={item.id} className="border  w-full h-25  sm:h-75 sm:w-50 ">
+    <li key={item.id} className="w-full h-25  sm:h-95 sm:w-66 ">
     <div className="relative w-full h-full">
     <picture>
     <img src={`${item.image.mobile}`} alt={`${item.alt}`} className="w-full h-full object-cover sm:hidden "/>
@@ -29,7 +34,9 @@ return(
     ))}
   
   </ul>
+    <Button className={" sm:hidden text-sm  font-Josefin-Sans  border py-2 px-8 font-bold "}>SEE ALL </Button> 
 
+</div>
 
 </div>
 
