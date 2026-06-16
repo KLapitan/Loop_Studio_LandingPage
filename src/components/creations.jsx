@@ -8,13 +8,13 @@ return(
 <section className=" w-full h-auto border-yellow-400 p-4  ">
 <div className=" w-full h-auto   flex gap-15 flex-col items-center mt-15 ">
 
-<div className="flex flex-row  justify-center sm:justify-between items-center  max-w-6xl w-full">
+<div className="flex flex-row  justify-center sm:justify-between items-center  max-w-6xl w-full p-2 border">
  <h2 className="text-3xl md:text-4xl font-Josefin-Sans text-center  ">OUR CREATIONS</h2>
 <Button className={"hidden sm:block text-sm  font-Josefin-Sans  border py-2 px-8 font-bold "}>SEE ALL </Button> 
 </div>
 
-<div className="max-w-6xl flex flex-col items-center gap-8 mb-20">
-  <ul className="max-w-6xl w-full   flex flex-col gap-7 sm:flex-row  sm:h-auto  sm:flex-wrap sm:flex-1 sm:items-center sm:justify-center">
+<div className="max-w-6xl flex flex-col items-center gap-8 mb-20 border ">
+  <ul className="max-w-6xl w-full   flex flex-col gap-7 sm:flex-row  sm:h-auto  sm:flex-wrap sm:flex- sm:items-center sm:justify-center">
     {creationsData.map((item) => (
     <li key={item.id} className="w-full h-25  sm:h-95 sm:w-66 ">
     <div className="relative w-full h-full">
