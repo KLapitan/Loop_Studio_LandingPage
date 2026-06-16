@@ -10,7 +10,7 @@ return(
 
 <div className="flex flex-row  justify-center sm:justify-between items-center  max-w-6xl w-full p-2">
  <h2 className="text-3xl md:text-4xl font-Josefin-Sans text-center  ">OUR CREATIONS</h2>
-<Button className={"hidden sm:block text-sm  font-Josefin-Sans  py-2 px-8 font-bold border "}>SEE ALL </Button> 
+<Button className={"hidden md:block text-sm  font-Josefin-Sans  py-2 px-8 font-bold border "}>SEE ALL </Button> 
 </div>
 
 <div className="max-w-6xl flex flex-col items-center gap-8 mb-20  ">
@@ -34,7 +34,7 @@ return(
     ))}
   
   </ul>
-    <Button className={" sm:hidden text-sm  font-Josefin-Sans  border py-2 px-8 font-bold "}>SEE ALL </Button> 
+    <Button className={" md:hidden text-sm  font-Josefin-Sans  border py-2 px-8 font-bold "}>SEE ALL </Button> 
 
 </div>
 
