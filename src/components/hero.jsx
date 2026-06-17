@@ -12,14 +12,14 @@ return (
     
 
       {/* background  */}
-        <div className="bg-[url('/images/mobile/image-hero.jpg')] sm:bg-[url('/images/desktop/image-hero.jpg')]  bg-cover  bg-no-repeat bg-center h-screen flex justify-start  items-center px-4">
-
+        <div className="bg-[url('/images/mobile/image-hero.jpg')] sm:bg-[url('/images/desktop/image-hero.jpg')]  bg-cover  bg-no-repeat bg-center h-screen flex items-center justify-center ">
         
-        
-            <div className="border-2 border-PWhite h-auto max-w-6xl w-full   lg:w-sm lg:ml-32 2xl:ml-51">
+        <div className="max-w-6xl w-full h-screen  p-2 flex items-center ">
+            <div className="border-2 border-PWhite h-auto max-w-6xl w-full lg:w-sm ">
               <p className="text-PWhite text-4xl lg:text-5xl lg:w-sm lg:leading-12 font-Josefin-Sans p-4 leading-9">IMMERSIVE EXPERIENCES THAT DELIVER</p>
 
             </div>
+        </div>
         
         </div>
     </div>
