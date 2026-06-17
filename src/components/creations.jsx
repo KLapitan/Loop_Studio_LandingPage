@@ -37,7 +37,7 @@ return(
     ))}
   
   </ul>
-    <Button className={" md:hidden text-sm  font-Josefin-Sans  border py-2 px-8 font-bold "}>SEE ALL </Button> 
+    <Button className={" md:hidden text-sm  font-Josefin-Sans  border py-2 px-8 font-bold hover:cursor-pointer  active:bg-PBlack active:text-white scale-100 hover:shadow-lg  "}>SEE ALL </Button> 
 
 </div>
 
