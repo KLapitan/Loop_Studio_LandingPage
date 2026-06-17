@@ -1,5 +1,5 @@
 
-import { createContext,useContext} from "react";
+import { createContext,useContext, useState} from "react";
 
 const navContext = createContext()
 
@@ -102,14 +102,11 @@ const creationsData = [
     desktop: "/images/desktop/image-fisheye.jpg"
   }
 },
-
-
-
-
 ];
+const [showLinks,setShowLinks]=useState(false)
 
 return(
-<navContext.Provider value={{ creationsData , navLinks , loopSocialLinks}}>
+<navContext.Provider value={{ creationsData , navLinks , loopSocialLinks,showLinks,setShowLinks}}>
 
 {children}
 
