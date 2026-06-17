@@ -6,15 +6,18 @@ const { creationsData } =useNavigationContext();
 
 return(
 <section className=" w-full h-auto  p-4  ">
-<div className=" w-full h-auto   flex gap-6 flex-col items-center mt-8 ">
+
+{/* title and image container */}
+<div className=" w-full h-auto   flex gap-22 flex-col items-center mt-8 ">
 
 <div className="flex flex-row  justify-center sm:justify-between items-center  max-w-6xl w-full p-2">
  <h2 className="text-2xl md:text-4xl font-Josefin-Sans text-center  ">OUR CREATIONS</h2>
-<Button className={"hidden md:block text-sm  font-Josefin-Sans  py-2 px-8 font-bold border "}>SEE ALL </Button> 
+<Button className={"hidden md:block text-sm  font-Josefin-Sans  py-2 px-10 font-bold border hover:cursor-pointer  active:bg-PBlack active:text-white scale-100 hover:shadow-lg"}>SEE ALL </Button> 
 </div>
 
+{/* container of images */}
 <div className="max-w-6xl flex flex-col items-center gap-8 mb-20  ">
-  <ul className="max-w-6xl w-full   flex flex-col gap-7 sm:flex-row  sm:h-auto  sm:flex-wrap sm:flex- sm:items-center sm:justify-center">
+  <ul className="max-w-6xl w-full   flex flex-col gap-7 sm:flex-row  sm:h-auto  sm:flex-wrap sm:flex- sm:items-center sm:justify-center ">
     {creationsData.map((item) => (
     <li key={item.id} className="w-full h-25  sm:h-100 sm:w-66 ">
     <div className="relative w-full h-full">

@@ -15,7 +15,11 @@ return(
 
       <ul className="flex  flex-col md:flex-row gap-7 lg:gap-10 mb-3 ">
         {navLinks.map((link) => (
-        <li key={link} className="text-PWhite text-md   font-Alata  cursor-pointer text-center  hover:underline  hover:underline-offset-6" >{link}</li>
+        <li key={link} className="text-PWhite text-md   font-Alata  cursor-pointer text-center group inline-block relative " >{link}
+        
+        {/* underlined based on project  */}
+        <span className="absolute left-1/4 -bottom-2 h-0.5 group-hover:w-1/2 bg-PWhite"></span>
+        </li>
         ))}
       </ul>
 
@@ -24,10 +28,12 @@ return(
     <div className="flex  flex-col gap-4 items-center md:items-end md:gap-3 md:justify-center  px-4 ">
         <ul className="flex flex-row gap-4 lg:gap-5 p-4">
         {loopSocialLinks.map((link)  => (
-        <li key={link.id} className="cursor-pointer">
+        <li key={link.id} className="cursor-pointer group inline-block relative ">
         <picture>
-        <img src={`${link.img}`} alt={`${link.alt}`} />
+        <img src={`${link.img}`} alt={`${link.alt}`}  />
         </picture>
+        <span className="absolute left-0 -bottom-3 h-0.5 transition-all duration-300 bg-white group-hover:w-full "></span>
+
         </li>
         ))}
         </ul>
