@@ -28,7 +28,7 @@ return(
 
 
     </div>
-    <div className="flex  flex-col gap-4 items-center md:items-end md:gap-3 md:justify-center  px-4 lg:mt-10">
+    <div className="flex  flex-col gap-4 items-center md:items-end md:gap-3 md:justify-center  px-4 lg:mt-7">
        
 
         <ul className="flex flex-row gap-4 lg:gap-5 p-4">
