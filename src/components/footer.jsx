@@ -9,11 +9,6 @@ return(
 <footer className="w-full h-auto bg-PBlack flex items-center justify-center ">
     <section className="w-full max-w-6xl h-auto sm:h-49 flex flex-col md:flex-row md:justify-between  gap-9 py-10 sm:py-6 mb-2 sm:mb-0">
     <div className=" flex flex-col  items-center gap-8 md:gap-5 md:justify-center md:items-start  flex-1  md:p-4 lg:p-2">
-       <div className="flex flex-col sm:flex-row text-sm">
-   <span className="text-white ">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" className="underline underline-offset-4 mr-2">Frontend Mentor.</a> </span> 
-   <span className="text-white">Coded by <a href="https://github.com/KLapitan" className="underline underline-offset-4">Karl Lapitan</a>.</span> 
-  </div>
-
 
 
         <picture>
@@ -32,7 +27,7 @@ return(
 
 
     </div>
-    <div className="flex  flex-col gap-4 items-center md:items-end md:gap-3 md:justify-center  px-4 ">
+    <div className="flex  flex-col gap-4 items-center md:items-end md:gap-3 md:justify-center  px-4 lg:mt-7 ">
        
 
         <ul className="flex flex-row gap-4 lg:gap-5 p-4">
@@ -48,6 +43,12 @@ return(
         </ul>
 
       <span className="text-white/49 font-Alata text-md "> © 2021 Loopstudios. All rights reserved.</span>
+             <div className="flex flex-col sm:flex-row text-sm">
+   <span className="text-white ">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" className="underline underline-offset-4 mr-2">Frontend Mentor.</a> </span> 
+   <span className="text-white">Coded by <a href="https://github.com/KLapitan" className="underline underline-offset-4">Karl Lapitan</a>.</span> 
+  </div>
+
+
 
     </div> 
     </section>
