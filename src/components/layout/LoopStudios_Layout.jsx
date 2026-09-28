@@ -1,4 +1,4 @@
-import LPHero from "../hero"
+import LPHero from "../Hero_UI/hero"
 import LPNav from "../nav"
 import LPFooter from "../footer"
 
